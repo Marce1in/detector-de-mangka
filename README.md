@@ -4,6 +4,8 @@ Esta API recebe uma imagem, aplica a normalização manga usada na inferência,
 executa inferência no checkpoint `model.pth` e retorna a classe prevista. O
 servidor HTTP é Node.js/Express; o worker de inferência é Python/PyTorch.
 
+![Interface web do detector de mangaka](docs/readme-preview.png)
+
 ## Estrutura
 
 ```txt
@@ -15,6 +17,8 @@ cnn-node-api/
 ├── uv.lock
 ├── Dockerfile
 ├── docker-compose.yml
+├── docs/
+│   └── readme-preview.png
 ├── public/
 │   └── index.html
 └── models_saved/
