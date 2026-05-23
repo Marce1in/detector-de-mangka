@@ -1,0 +1,9 @@
+node_modules
+.venv
+.runtime
+.git
+.DS_Store
+__pycache__
+*.pyc
+npm-debug.log
+package-lock.json

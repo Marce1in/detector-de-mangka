@@ -1,0 +1,5 @@
+node_modules/
+.venv/
+.runtime/
+*.log
+.DS_Store

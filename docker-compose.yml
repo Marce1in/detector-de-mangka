@@ -1,0 +1,10 @@
+services:
+  cnn-api:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      PORT: "3000"
+      PYTHON_CMD: uv
+      PYTHON_ARGS: run python
+    command: pnpm start
